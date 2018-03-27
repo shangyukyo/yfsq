@@ -1,0 +1,17 @@
+a.a07:link {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #006600;
+	text-decoration: none;
+}
+a.a07:visited {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 12px;
+	color: #006633;
+	text-decoration: none;
+}
+a.a07:hover {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	color: #006633;
+	text-decoration: none;
+}

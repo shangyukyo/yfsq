@@ -1,0 +1,33 @@
+BODY {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+TD {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 150%
+}
+.txt1 {
+	FONT-SIZE: 9pt; COLOR: #ffffff
+}
+A:active {
+	FONT-SIZE: 9pt; COLOR: #ffcc00; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ffcc00; LINE-HEIGHT: 120%; TEXT-DECORATION: underline
+}
+A:link {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 120%; TEXT-DECORATION: none
+}
+.butten {
+	BORDER-RIGHT: #99ff00 1px dotted; BORDER-TOP: #99ff00 1px dotted; FONT-SIZE: 9pt; BORDER-LEFT: #99ff00 1px dotted; COLOR: #ffffff; BORDER-BOTTOM: #99ff00 1px dotted; BACKGROUND-COLOR: #4d4d4d
+}
+.time {
+	FONT-SIZE: 9pt; COLOR: #ffffff
+}
+.butten2 {
+	BORDER-RIGHT: #99ff00 1px solid; BORDER-TOP: #99ff00 1px solid; FONT-SIZE: 9pt; BORDER-LEFT: #99ff00 1px solid; COLOR: #ffffff; LINE-HEIGHT: 120%; BORDER-BOTTOM: #99ff00 1px solid; BACKGROUND-COLOR: #4d4d4d
+}
+.txt2 {
+	FONT-SIZE: 9pt; FILTER: DropShadow(Color=000000, OffX=-1, OffY=1); COLOR: #ffffff; LINE-HEIGHT: 150%
+}

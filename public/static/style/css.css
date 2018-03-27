@@ -1,0 +1,382 @@
+TABLE.p {
+	FONT-SIZE: 12px; LINE-HEIGHT: 14pt
+}
+.e1 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 12pt; FONT-FAMILY: "Arial"
+}
+.e2 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 12pt; FONT-FAMILY: "Arial"
+}
+.f1 {
+	FONT-SIZE: 12px; COLOR: #950000; LINE-HEIGHT: 16pt; FONT-FAMILY: "宋体"
+}
+.f1-index {
+	FONT-SIZE: 12px; COLOR: #950000; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; LINE-HEIGHT: 130%; FONT-FAMILY: "宋体"
+}
+.f3 {
+	FONT-SIZE: 14px; LINE-HEIGHT: 20pt; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}
+.f4-1 {
+	FONT-SIZE: 12px; COLOR: #646262; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f4 {
+	FONT-SIZE: 12px; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f4-2 {
+	FONT-SIZE: 14px; COLOR: blue; TEXT-DECORATION: none
+}
+.f5 {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f5-1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+.f5-2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+.f8 {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f6 {
+	FONT-SIZE: 16px; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.f7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"
+}
+.p10 {
+	FONT-SIZE: 11px; FONT-FAMILY: "宋体"
+}
+.p14 {
+	FONT-SIZE: 14px; FONT-FAMILY: "宋体"
+}
+.p15 {
+	FONT-SIZE: 15px; FONT-FAMILY: "宋体"; LETTER-SPACING: 2px
+}
+.p16 {
+	FONT-SIZE: 16px; FONT-FAMILY: "宋体"; LETTER-SPACING: 2px
+}
+.p18 {
+	FONT-SIZE: 18px; FONT-FAMILY: "宋体"; LETTER-SPACING: 1px
+}
+A:link {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:visited {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+A:hover {
+	COLOR: #0000ff; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A.a02:link {
+	COLOR: #ffffff;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	LETTER-SPACING: 1px;
+	TEXT-DECORATION: none;
+	font-size: 9pt;
+	font-weight: none;
+
+}
+A.a02:visited {
+	COLOR: #ffffff;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	LETTER-SPACING: 1px;
+	TEXT-DECORATION: none;
+	font-size: 9pt;
+	font-weight: none;
+
+}
+A.a02:hover {
+	COLOR: #ffffff;
+	FONT-FAMILY: "Arial", "Helvetica", "sans-serif";
+	LETTER-SPACING: 1px;
+	TEXT-DECORATION: underline;
+	font-size: 9pt;
+	font-weight: none;
+
+}
+A.a01:link {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a01:visited {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a01:hover {
+	COLOR: #0000ff; FONT-FAMILY: 宋体; TEXT-DECORATION: underline
+}
+A.a03:link {
+	COLOR: #004181; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a03:visited {
+	COLOR: #004181; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a03:hover {
+	COLOR: #004181; LINE-HEIGHT: 14pt; FONT-FAMILY: 宋体; TEXT-DECORATION: underline
+}
+A.a04:link {
+	COLOR: #000000; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a04:visited {
+	COLOR: #000000; LINE-HEIGHT: 14pt; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A.a04:hover {
+	COLOR: #000000; LINE-HEIGHT: 14pt; FONT-FAMILY: 宋体; TEXT-DECORATION: underline
+}
+.p6 {
+	FONT-SIZE: 6px; LINE-HEIGHT: 16px
+}
+.p9 {
+	FONT-SIZE: 9px; LINE-HEIGHT: 16px
+}
+.p12 {
+	FONT-SIZE: 12px
+}
+.p12h {
+	FONT-SIZE: 12px; LINE-HEIGHT: 130%
+}
+.p14 {
+	FONT-SIZE: 14px
+}
+.p15 {
+	FONT-SIZE: 15px
+}
+.b24 {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px
+}
+.p14h {
+	FONT-SIZE: 14px; LINE-HEIGHT: 130%
+}
+.b14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px
+}
+.b12 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px
+}
+.b15 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px
+}
+.sub {
+	LINE-HEIGHT: 150%
+}
+TD {
+	FONT-SIZE: 12px
+}
+SELECT {
+	FONT-SIZE: 12px
+}
+INPUT {
+	FONT-SIZE: 12px
+}
+OPTION {
+	FONT-SIZE: 12px
+}
+LI {
+	LIST-STYLE-IMAGE: url("http://www.qz5u.com/style/images/li.gif"); COLOR: #cc2600
+}
+UL {
+	MARGIN: 0px 5px 5px 20px
+}
+.date {
+	FONT-SIZE: 10px; COLOR: #aeafd1
+}
+A.l {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: none
+}
+A.l:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: none
+}
+A.l:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: none
+}
+A.e {
+	FONT-SIZE: 14px; COLOR: black; FONT-FAMILY: "Arial"; TEXT-DECORATION: none
+}
+A.e:visited {
+	FONT-SIZE: 14px; COLOR: black; FONT-FAMILY: "Arial"; TEXT-DECORATION: none
+}
+A.e:hover {
+	FONT-SIZE: 14px; COLOR: black; FONT-FAMILY: "Arial"; TEXT-DECORATION: underline
+}
+A.h {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1a1b9a; TEXT-DECORATION: none
+}
+A.h:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1a1b9a; TEXT-DECORATION: none
+}
+A.h:hover {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #1a1b9a; TEXT-DECORATION: underline
+}
+.buttom {
+	FONT-SIZE: 12px; COLOR: #ffffff; LINE-HEIGHT: 130%
+}
+A.g {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 14pt; TEXT-DECORATION: none
+}
+A.g:visited {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 14pt; TEXT-DECORATION: none
+}
+A.g:hover {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 14pt; TEXT-DECORATION: underline
+}
+A.g1 {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 18pt; TEXT-DECORATION: none
+}
+A.g1:visited {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 18pt; TEXT-DECORATION: none
+}
+A.g1:hover {
+	FONT-SIZE: 12px; COLOR: black; LINE-HEIGHT: 18pt; TEXT-DECORATION: underline
+}
+A.red {
+	FONT-SIZE: 12px; COLOR: #950000; TEXT-DECORATION: none
+}
+A.red:visited {
+	FONT-SIZE: 12px; COLOR: #950000; TEXT-DECORATION: none
+}
+A.red:hover {
+	FONT-SIZE: 12px; COLOR: #950000; TEXT-DECORATION: underline
+}
+A.black {
+	FONT-SIZE: 14px; LINE-HEIGHT: 12pt; TEXT-DECORATION: none
+}
+A.black:visited {
+	FONT-SIZE: 14px; LINE-HEIGHT: 12pt; TEXT-DECORATION: none
+}
+A.black:hover {
+	FONT-SIZE: 14px; LINE-HEIGHT: 12pt; TEXT-DECORATION: underline
+}
+A.white {
+	FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.white:visited {
+	FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+A.white:hover {
+	FONT-SIZE: 13px; TEXT-DECORATION: underline
+}
+A.g2 {
+	FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: none
+}
+A.g2:visited {
+	FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: none
+}
+A.g2:hover {
+	FONT-SIZE: 14px; COLOR: black; TEXT-DECORATION: underline
+}
+A.g3 {
+	FONT-SIZE: 14px; COLOR: black; LINE-HEIGHT: 14pt; TEXT-DECORATION: none
+}
+A.g3:visited {
+	FONT-SIZE: 14px; COLOR: black; LINE-HEIGHT: 14pt; TEXT-DECORATION: none
+}
+A.g3:hover {
+	FONT-SIZE: 14px; COLOR: red; LINE-HEIGHT: 14pt; TEXT-DECORATION: underline
+}
+A.list {
+	FONT-SIZE: 14px; COLOR: blue; TEXT-DECORATION: none
+}
+A.list:visited {
+	FONT-SIZE: 14px; COLOR: blue; TEXT-DECORATION: none
+}
+A.list:hover {
+	FONT-SIZE: 14px; COLOR: blue; TEXT-DECORATION: underline
+}
+A.about {
+	FONT-SIZE: 12px; COLOR: blue; TEXT-DECORATION: none
+}
+A.about:visited {
+	FONT-SIZE: 12px; COLOR: blue; TEXT-DECORATION: none
+}
+A.about:hover {
+	FONT-SIZE: 12px; COLOR: blue; TEXT-DECORATION: underline
+}
+.test_18 {
+	FONT-SIZE: 18px; LINE-HEIGHT: 20pt; FONT-FAMILY: "Verdana", "Arial", "Helvetica", "sans-serif"
+}A.c:link {font-size:12px;text-decoration: none; color: #0156C1}
+A.c:visited {font-size:12px;text-decoration: none; color: #0156C1}
+A.c:active {font-size:12px;text-decoration: none ; color: #cb0800}
+A.c:hover {font-size:12px;text-decoration: none; color: #BB741A}
+.defaultfont{font-size:14px;font-family:arial;}a.test_14:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 14px;
+}
+a.test_14:visited {
+	color: #FF0000;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+a.test_14:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #0000FF;
+	font-size: 14px;
+	text-decoration: none;
+}
+a.france01:link {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #676767;
+	text-decoration: none;
+}
+a.france01:visited {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #676767;
+	text-decoration: none;
+}
+a.france01:hover {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #676767;
+	text-decoration: none;
+}
+a.red18:link {
+	font-size: 18px;
+	color: #cc0000;
+	text-decoration: none;
+}
+
+a.red18:visited {
+	font-size: 18px;
+	color: #cc0000;
+	text-decoration: none;
+}
+a.red18:hover {
+	font-size: 18px;
+	color: #cc0000;
+	text-decoration: underline;
+}
+a.14ls:link {
+	font-size: 14px;
+	color: #0000cc;
+	text-decoration: underline;
+}
+a.14ls:visited {
+	font-size: 14px;
+	color: #0000cc;
+	text-decoration: underline;
+}
+a.14ls:hover {
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+}
+.line24 {
+	line-height: 30px;
+}
+a.a6:link {
+	color: #404040;
+	text-decoration: none;
+}
+a.a6:visited {
+	color: #404040;
+	text-decoration: none;
+}
+a.a6:hover {
+	color: #0000FF;
+	text-decoration: underline;
+}
+a.a3{font-family:Arial, Helvetica, sans-serif;}
+a.a01,a.a01:link,a.a01:visited,a.a01:hover{font-family:Arial, Helvetica, sans-serif;}
+a.a03,a.a03:link,a.a03:visited,a.a03:hover{font-family:Arial, Helvetica, sans-serif;}

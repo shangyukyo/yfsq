@@ -1,0 +1,21 @@
+a.a4:link {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 10pt;
+	color: #000000;
+	text-decoration: underline;
+}
+a.a4:visited {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 10pt;
+	color: #000000;
+	text-decoration: underline;
+}
+a.a4:hover {
+	font-family: "Arial", "Helvetica", "sans-serif";
+	font-size: 10pt;
+	color: #FF0000;
+	text-decoration: underline;
+}
+a.a3{font-family:Arial, Helvetica, sans-serif;}
+a.a01,a.a01:link,a.a01:visited,a.a01:hover{font-family:Arial, Helvetica, sans-serif;}
+a.a03,a.a03:link,a.a03:visited,a.a03:hover{font-family:Arial, Helvetica, sans-serif;}

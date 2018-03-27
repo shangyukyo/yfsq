@@ -1,0 +1,12 @@
+a.l1:link {
+	color: #006528;
+	text-decoration: none;
+}
+a.l1:visited {
+	color: #006528;
+	text-decoration: none;
+}
+a.l1:hover {
+	color: #0000CC;
+	text-decoration: none;
+}

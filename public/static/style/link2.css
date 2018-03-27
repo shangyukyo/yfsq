@@ -1,0 +1,15 @@
+a.a2:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.a2:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a.a2:hover {
+	color: #FF0000;
+	text-decoration: none;
+}
+a.a3{font-family:Arial, Helvetica, sans-serif;}
+a.a01,a.a01:link,a.a01:visited,a.a01:hover{font-family:Arial, Helvetica, sans-serif;}
+a.a03,a.a03:link,a.a03:visited,a.a03:hover{font-family:Arial, Helvetica, sans-serif;}

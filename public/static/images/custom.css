@@ -1,0 +1,75 @@
+.style {
+	FONT-SIZE: 9pt; COLOR: #441d01; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.wenzhang1 {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.wenzhang2 {
+	FONT-SIZE: 9pt; COLOR: #441d01; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xhei {
+	FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.chei {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xbai {
+	FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.cbai {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xhe {
+	FONT-SIZE: 9pt; COLOR: #441d01; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.che {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #441d01; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xjhuang {
+	FONT-SIZE: 9pt; COLOR: #ff7300; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.cjhuang {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ff7300; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xhong {
+	FONT-SIZE: 9pt; COLOR: #d60000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.chong {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #d60000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xjhong {
+	FONT-SIZE: 9pt; COLOR: #990000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.cjhong {
+	FONT-SIZE: 9pt; COLOR: #990000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xlv {
+	FONT-SIZE: 9pt; COLOR: #005914; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.clv {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #005914; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.xlan {
+	FONT-SIZE: 9pt; COLOR: #024180; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.clan {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #024180; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:link {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+A:hover {
+	FONT-SIZE: 9pt; COLOR: #ff0000; LINE-HEIGHT: 17px; FONT-FAMILY: 宋体; TEXT-DECORATION: none
+}
+.english {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #441d01; LINE-HEIGHT: 17px; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+.time {
+	FONT-SIZE: 8pt; COLOR: #cccccc; LINE-HEIGHT: 17px; FONT-FAMILY: "Arial", "Helvetica", "sans-serif"; TEXT-DECORATION: none
+}
+a.a3{font-family:Arial, Helvetica, sans-serif;}
+a.a01,a.a01:link,a.a01:visited,a.a01:hover{font-family:Arial, Helvetica, sans-serif;}
+a.a03,a.a03:link,a.a03:visited,a.a03:hover{font-family:Arial, Helvetica, sans-serif;}
