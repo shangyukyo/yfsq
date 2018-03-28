@@ -10,6 +10,8 @@ end
 gem 'rails', '~> 5.1.5'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 5.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
@@ -33,6 +35,15 @@ gem 'jbuilder', '~> 2.5'
 # Use Unicorn as the app server
 gem 'unicorn'
 
+# Bootstrap for UI
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Font Icons
+gem 'font-awesome-sass', '~> 4.5.0'
+
+
+# Slim for Template
+gem 'slim', '~> 3.0.6'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 

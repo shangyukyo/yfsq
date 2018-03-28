@@ -1,0 +1,52 @@
+.pd-15
+	.panel.panel-default
+		.panel-heading 		
+			i.fa.fa-reorder 
+			span.ml-10 外商来访报表
+
+		.panel-body
+			.table-responsive
+			  table.table
+			    thread
+			      tr.active
+			      	th 邀请公司名称
+			        th 邀请公司联系人
+			        th 电话
+			        th 传真
+			        th 外国人英文名
+			        th 国籍
+			        th 性别
+			        th 护照号码
+			        th 职务
+			        th 来华目的
+			        th 来华时间
+			        th 申请签证地点
+			        th 在华停留时间
+			        th 申请签证邀请函电种类
+			        th 邀请函传真
+			        th 邀请函将原件发送地址
+			        th 邀请函邮寄地址
+			        th 创建时间
+			        th #
+			    tbody		    	
+		        - @items.each do |c|
+		          tr
+		            td= c.bCompany	            	
+		            td= c.bContact
+		            td= c.bPhone
+		            td= c.bFax
+		            td= c.bName
+		            td= c.bNationality
+		            td= c.aSex
+		            td= c.bIDNo
+		            td= c.bTitle
+		            td= c.bPurpose
+		            td= "#{c.bYear} - #{c.bMonth}"
+		            td= c.bPlace
+		            td= c.bbDuration
+		            td= c.bVisaType
+		            td= c.bbFax
+		            td= c.bbLocalAddress
+		            td= c.bbApplicantAddress
+		            td= c.created_at.strftime("%F %T")
+		            td #

@@ -1,0 +1,2 @@
+class Vistor < ApplicationRecord
+end

@@ -1,0 +1,50 @@
+.pd-15
+	.panel.panel-default
+		.panel-heading 		
+			i.fa.fa-reorder 
+			span.ml-10 在线咨询
+
+		.panel-body
+			.table-responsive
+			  table.table
+			    thread
+			      tr.active
+			      	th 姓名
+			        th 电话
+			        th 传真
+			        th 城市
+			        th 地址
+			        th email
+			        th 护照种类
+			        th 签发地点
+			        th 签发日期
+			        th 有效期
+			        th 护照人员身份
+			        th 新版护照
+			        th 出生年月
+			        th 准备访问的国家
+			        th 签证种类
+			        th 详细信息
+			        th 创建时间
+			        th #
+			    tbody		    	
+		        - @items.each do |c|
+		          tr
+		            td= c.user_name	            	
+		            td= c.telephone
+		            td= c.postnum
+		            td= c.title
+		            td= c.address
+		            td= c.email
+		            td= @c[c.huzhao]
+		            td= c.qaddress
+		            td= c.qtime
+		            td= c.qyouxiao
+		            td= @a[c.speak_type]
+		            td= @d[c.newhuzhao]
+		            td= c.birthday
+		            td= c.country
+		            td= @b[c.zhonglei]
+		            td= c.content
+		            td= c.created_at.strftime("%F %T")
+		            td #

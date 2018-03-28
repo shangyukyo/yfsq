@@ -1,0 +1,28 @@
+.pd-15
+	.panel.panel-default
+		.panel-heading 		
+			i.fa.fa-reorder 
+			span.ml-10 意见箱
+
+		.panel-body
+			.table-responsive
+			  table.table
+			    thread
+			      tr.active
+			      	th 姓名
+			        th 发件人公司名
+			        th E-mail
+			        th 联系电话
+			        th 要求
+			        th 创建时间
+			        th #
+			    tbody		    	
+		        - @items.each do |c|
+		          tr
+		            td= c.user_name1	            	
+		            td= c.title1
+		            td= c.email1
+		            td= c.telePhone1
+		            td= c.content1
+		            td= c.created_at.strftime("%F %T")
+		            td #

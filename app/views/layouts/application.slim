@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html
+  head
+    title Mandarin Bridge
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    = csrf_meta_tags
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+  body
+  	.menu-bar
+
+      ul.nav.nav-pills.nav-stacked
+        li
+          a href="#{yijianxiang_path}"  class="#{params[:action] == 'yijianxiang' ? 'selected' : nil}"
+            i.fa.fa-list 
+            span.ml-5 外国人签证意见箱      
+        li
+          a href="#{zaixianzixun_path}"  class="#{params[:action] == 'zaixianzixun' ? 'selected' : nil}"
+            i.fa.fa-list 
+            span.ml-5 在线咨询
+        li
+          a href="#{vistor_path}"  class="#{params[:action] == 'vistor' ? 'selected' : nil}"
+            i.fa.fa-list 
+            span.ml-5 外商来访报表
+        li
+          a href="/static/wangzhi/zbj.htm"  class="#{params[:action] == '' ? 'selected' : nil}" target="_blank"
+            i.fa.fa-list 
+            span.ml-5 各国驻华使馆列表
+  	.main
+        - if true
+          .state-nav
+            .logo.pull-left
+              = image_tag "logostar.png", size: '30x30'
+              span.ml-10 汉语桥信息收集平台
+
+  		.content
+    		= yield
+
