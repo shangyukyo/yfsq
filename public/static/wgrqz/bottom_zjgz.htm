@@ -5,6 +5,7 @@
 <META http-equiv=Content-Type content="text/html; charset=gb2312">
 
 <LINK href="../images/custom.css" type=text/css rel=stylesheet>
+<script type="text/javascript" src="../Scripts/jquery.min.js"></script>
 <META content="MSHTML 6.00.2900.2627" name=GENERATOR>
 <style type="text/css">
 <!--
@@ -75,6 +76,7 @@ function CheckField(fn)
 
 	
 }
+
 
 </SCRIPT>
 <title>北京亚非商签咨询服务中心</title>
@@ -400,16 +402,16 @@ border=0>
             <td width="561" background="../images/center_title_bg1.gif">　　　 <strong>证件跟踪</strong></td>
           </tr>
         </table>
-        <table width="97%" height="175" border="0" align="center" cellpadding="0" cellspacing="0" class="line">
-          <tr> 
+        <table id="querytab" width="97%" height="175" border="0" align="center" cellpadding="0" cellspacing="0" class="line">
+          <tr>  
             <td height="175" align="center">　 
-              <FORM name=query action=query.asp method=post>
+              <FORM name=query action= method=post>
                 <FONT color=#008000 
             size=2>请输入凭单号码：</FONT> 
                 <INPUT maxLength=10 size=10 
             name=ReceiptID>
                 &nbsp; 
-                <INPUT name="button" type=button style="FONT-SIZE: 8pt; FONT-FAMILY: Arial" onClick="if(CheckField(this.form)) this.form.submit();" value=提交>
+                <INPUT name="button" class="querypz" type=button style="FONT-SIZE: 8pt; FONT-FAMILY: Arial"  value=提交>
               </FORM></td>
           </tr>
         </table>
@@ -462,5 +464,18 @@ border=0>
   </TBODY>
 </TABLE>
 </BODY>
+
+<script type="text/javascript">
+$('.querypz').click(function(){
+  console.log("sdsada");
+  if ($('input[name=ReceiptID]').val() == 'undefined' || $('input[name=ReceiptID]').val() == '' || $('input[name=ReceiptID]').val().length < 10 ){
+    alert('请至少输入10位号码！');
+  }else{
+    var html = '<table width="527" border="2" cellpadding="2" cellspacing="0" bordercolor="#00cc66"style="BORDER-COLLAPSE: collapse;margin-top:50px;margin-left: 20px;"><tbody><tr> <td width="508" colspan="2" align="center"><font face="Arial" size="2">您查询的凭证不存在！请确认您输入的凭证号码无误。</font></td></tr><tr> <td align="middle" colspan="2"><font face="Arial" size="2"><br><a href="bottom_zjgz.htm">返回</a></font><br></td></tr><tr> <td align="middle" colspan="2"><font face="Arial" size="2"><br>如需要进一步的帮助，请拨打咨询电话 (86 10) </font><font size="3">64630134</font><font face="Arial" size="2">或<a href="" target="_self" class="a3">联系我们</a>。<br></font></td></tr></tbody></table>';
+
+    $('#querytab').replaceWith(html);
+  }
+})  
+</script>
 </HTML>
 
