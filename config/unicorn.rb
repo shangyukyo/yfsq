@@ -4,7 +4,7 @@
 # shared_path = "#{app_path}"
 # current_path = "#{app_path}"
 
-application = "dog-training"
+application = "yfsq"
 app_path = "~/www/#{application}"
 shared_path = "#{app_path}/shared"
 current_path = "#{app_path}/current"
@@ -15,7 +15,7 @@ preload_app true   # Preload our app for more speed
 timeout 180
 
 # 可同时监听 Unix 本地 socket 或 TCP 端口
-listen 8086, :tcp_nopush => true
+listen 8091, :tcp_nopush => true
 listen "/tmp/unicorn.#{application}.sock", :backlog => 64
 
 # Fill path to your app
