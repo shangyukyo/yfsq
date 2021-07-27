@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'unicorn'
 
 # Bootstrap for UI
-gem 'bootstrap-sass', '~> 3.3.6'
+gem 'bootstrap-sass', '~> 3.4.1'
 
 # Font Icons
 gem 'font-awesome-sass', '~> 4.5.0'
