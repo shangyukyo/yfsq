@@ -5,6 +5,11 @@ class YijianxiangController < ApplicationController
 		redirect_to request.referer
 	end
 
+  def delete
+    Yijianxiang.find(params[:id]).destroy
+    redirect_to yijianxiang_path
+  end  
+
 	private
 
 	def yijianxiang_params

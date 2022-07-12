@@ -5,6 +5,11 @@ class ZaixianzixunController < ApplicationController
 		redirect_to request.referer
 	end
 
+  def delete
+    Zaixianzixun.find(params[:id]).destroy
+    redirect_to zaixianzixun_path
+  end  	
+
 	private
 
 	def zaixianzixun_params

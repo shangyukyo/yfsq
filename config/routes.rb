@@ -13,7 +13,21 @@ Rails.application.routes.draw do
 	  end
   end  
 
-  resources :yijianxiang
-  resources :zaixianzixun
-  resources :vistor
+  resources :yijianxiang do 
+    member do 
+      get :delete
+    end
+  end
+
+  resources :zaixianzixun do 
+    member do 
+      get :delete
+    end
+  end
+
+  resources :vistor do 
+    member do 
+      get :delete
+    end
+  end
 end

@@ -25,4 +25,5 @@
 		            td= c.telePhone1
 		            td= c.content1
 		            td= c.created_at.strftime("%F %T")
-		            td #
+		            td
+		            	a href="#{delete_yijianxiang_path(id: c.id)}" 删除

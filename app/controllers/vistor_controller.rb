@@ -5,6 +5,11 @@ class VistorController < ApplicationController
 		redirect_to request.referer
 	end
 
+  def delete
+    Vistor.find(params[:id]).destroy
+    redirect_to vistor_path
+  end
+
 	private
 
 	def vistor_params

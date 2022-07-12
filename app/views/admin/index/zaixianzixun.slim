@@ -47,4 +47,5 @@
 		            td= @b[c.zhonglei]
 		            td= c.content
 		            td= c.created_at.strftime("%F %T")
-		            td #
+		            td
+		            	a href="#{delete_zaixianzixun_path(id: c.id)}" 删除

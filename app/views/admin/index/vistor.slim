@@ -49,4 +49,5 @@
 		            td= c.bbLocalAddress
 		            td= c.bbApplicantAddress
 		            td= c.created_at.strftime("%F %T")
-		            td #
+		            td
+		            	a href="#{delete_vistor_path(id: c.id)}" 删除
